@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Responsive Registration Form</title>
+    <meta name="viewport" content="width=device-width,
+      initial-scale=1.0"/>
+    <link rel="stylesheet" href="form.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="form-title">Registration</h1>
+      <form action="#">
+        <div class="main-user-info">
+          <div class="user-input-box">
+            <label for="fullName">Full Name</label>
+            <input type="text"
+                    id="fullName"
+                    name="fullName"
+                    placeholder="Enter Full Name"/>
+          </div>
+          <div class="user-input-box">
+            <label for="username">PRN</label>
+            <input type="number"
+                    id="username"
+                    name="username"
+                    placeholder="Enter PRN"/>
+          </div>
+          <div class="user-input-box">
+            <label for="email">Email</label>
+            <input type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Enter Email"/>
+          </div>
+          <div class="user-input-box">
+            <label for="phoneNumber">Phone Number</label>
+            <input type="text"
+                    id="phoneNumber"
+                    name="phoneNumber"
+                    placeholder="Enter Phone Number"/>
+          </div>
+          <div class="user-input-box">
+            <label for="password">Semester</label>
+            <input type="text"
+                    id="password"
+                    name="password"
+                    placeholder="Enter Semester"/>
+                    <select class="option" name="Semester" >
+                        <option disabled="disabled" selected="selected">--Choose Option</option>
+                        <option>Semester 1</option>
+                        <option>Semester 2</option>
+                        <option>Semester 3</option>
+                        <option>Semester 4</option>
+                        <option>Semester 5</option>
+                        <option>Semester 6</option>
+                        <option>Semester 7</option>
+                        <option>Semester 8</option>
+                    </select>
+          </div>
+          <div class="user-input-box">
+            <label for="confirmPassword">Subject</label>
+            <input type="text"
+                    id="confirmPassword"
+                    name="confirmPassword"
+                    placeholder="Enter Subject"/>
+                    <select class="option" name="Subject" >
+                        <option disabled="disabled" selected="selected">--Choose Option</option>
+                        <option>Cloud Computing</option>
+                        <option>Blockchain</option>
+                        <option>Software Engineering</option>
+                        <option>Big Data Analysis</option>
+                        
+                    </select>
+          </div>
+        </div>
+        <!-- <div class="gender-details-box">
+          <span class="gender-title">Gender</span>
+          <div class="gender-category">
+            <input type="radio" name="gender" id="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female">
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="other">
+            <label for="other">Other</label>
+          </div>
+        </div> -->
+        <div class="form-submit-btn">
+            <a href="quiz.html">
+          <input  type="submit" value="Submit" >
+          </a>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
+<!-- <a href="quiz.html" <button>MCQ</button></a> -->
